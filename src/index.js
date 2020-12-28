@@ -3,7 +3,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 //It should display 2 paragraph HTML elements.
 const yourName = "Prashant";
-const currentYear = 2021;
+// get current year -- create a new object for contructor Date() and use the method getFullYear()
+var date = new Date();
+const currentYear = date.getFullYear();
 ReactDOM.render(
   <div>
     <h1>This is my website.</h1>
